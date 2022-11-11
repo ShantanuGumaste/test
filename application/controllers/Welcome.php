@@ -38,7 +38,7 @@ class Welcome extends CI_Controller {
 		$name = $this->input->post('name');
 		$email = $this->input->post('email');
 		$phone = $this->input->post('phone');
-		
+		 
 		$insert_array = array(
 			"name" => $name,
 			"email" => $email,
