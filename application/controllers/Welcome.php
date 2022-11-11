@@ -51,7 +51,7 @@ class Welcome extends CI_Controller {
 			alert('Successfully Added');
 			document.location='".base_url()."';
 			</script>";
-			
+			   
 		} else {
 			echo "Error";
 		}
